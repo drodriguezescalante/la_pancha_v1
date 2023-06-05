@@ -17,6 +17,10 @@ const requestSchema = new mongoose.Schema({
     type: Array,
     required: true,
   },
+  request_detail:{
+    type: String,
+    required: true
+  },
   request_status: {
     type: String,
     required: true,
